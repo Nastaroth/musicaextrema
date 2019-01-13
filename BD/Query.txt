@@ -1,0 +1,12 @@
+UPDATE wpb4_options SET option_value = REPLACE ( option_value, 'http://www.juguetesbarquisimeto.com.ve', 'http://localhost/juguetesbarquisimeto' );
+UPDATE wpb4_posts SET guid = REPLACE ( guid, 'http://www.juguetesbarquisimeto.com.ve', 'http://localhost/juguetesbarquisimeto' );
+UPDATE wpb4_posts SET post_content = REPLACE ( post_content, 'http://www.juguetesbarquisimeto.com.ve', 'http://localhost/juguetesbarquisimeto' );
+UPDATE wpb4_postmeta SET meta_value = REPLACE ( meta_value, 'http://www.juguetesbarquisimeto.com.ve', 'http://localhost/juguetesbarquisimeto' );
+
+
+
+
+UPDATE wpb4_options SET option_value = REPLACE ( option_value, 'http://juguetesbarquisimeto.com.ve', 'http://localhost/juguetesbarquisimeto' );
+UPDATE wpb4_posts SET guid = REPLACE ( guid, 'http://juguetesbarquisimeto.com.ve', 'http://localhost/juguetesbarquisimeto' );
+UPDATE wpb4_posts SET post_content = REPLACE ( post_content, 'http://juguetesbarquisimeto.com.ve', 'http://localhost/juguetesbarquisimeto' );
+UPDATE wpb4_postmeta SET meta_value = REPLACE ( meta_value, 'http://juguetesbarquisimeto.com.ve', 'http://localhost/juguetesbarquisimeto' );
